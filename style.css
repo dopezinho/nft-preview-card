@@ -85,6 +85,12 @@ p {
     font-weight: 300;
 }
 
+h2 {
+    font-weight: 600;
+    color: var(--white);
+    margin-left: 8px;
+}
+
 .container {
     padding: 1.25rem;
     background-color: var(--card-bg);
@@ -119,12 +125,12 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.container h2 {
+.container h1 {
     color: var(--white);
     margin: 1rem 0.5rem 0.5rem 0;
 }
 
-.container h2:hover {
+.container h1:hover {
     color: var(--cyan);
     cursor: pointer;
 }
@@ -188,7 +194,7 @@ p {
 @media(min-width: 500px) {
     .container {
         width: 300px;
-        margin: 0 auto 1rem;
+        margin: 5rem auto 1rem;
     }
     
 }
