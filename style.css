@@ -194,7 +194,7 @@ h2 {
 @media(min-width: 500px) {
     .container {
         width: 300px;
-        margin: 5rem auto 1rem;
+        margin: 4rem auto 1rem;
     }
     
 }
